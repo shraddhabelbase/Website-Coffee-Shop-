@@ -1,0 +1,85 @@
+body{
+    background:
+        url(coffee.jpg)no-repeat;
+     
+    background-size: 100%;
+    
+    background-blend-mode: luminosity;
+    color:white;
+}
+
+.nav-bar{
+    padding-left: 150px;
+    padding-right: 500px;
+    background: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65),rgba(0,0,0,0.3),rgba(0,0,0,0));
+    
+   
+}
+
+ul {
+  
+  list-style-type: none;
+  margin: 0;
+  padding-left: 100px;
+  overflow: hidden;
+  background-color:4b4848;
+  float: right;
+  border-radius: 23px;
+  
+}
+
+li {
+    float: left;
+    
+  }
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 40px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color:#80461b;
+  opacity: 0.7;
+}
+.side-bar{
+    position: absolute;
+    top:40px;
+   bottom: 30px;
+    
+    width:320px;
+    background-color: black;
+    opacity: 0.9;
+    animation: moves 0.95s;
+    
+}
+
+@keyframes moves{
+    from{
+        opacity: 0.5;
+        transform: rotateX(-100deg);
+    }
+    to{
+        opacity: 0.9;
+        transform: rotateX(0deg);
+    }
+}
+.side-bar h1, h2{
+ color: whitesmoke;
+ opacity: 2;
+ padding-top: 30px;
+ text-align: center;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.side-bar h4{
+  filter: brightness(200%);
+  font-size: 15px;
+  text-align: center;
+  opacity: 0.8;
+}
