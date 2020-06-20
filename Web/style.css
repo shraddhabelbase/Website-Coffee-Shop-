@@ -52,7 +52,7 @@ li a:hover {
     
     top:70px;
    bottom: 30px;
-    height: 600px;
+   
     width:320px;
     background-color: black;
     opacity: 0.9;
@@ -72,28 +72,33 @@ li a:hover {
 }
 .side-bar h1, h2{
  color: whitesmoke;
- opacity: 2;
+ opacity: 0.8;
  padding-top: 30px;
  text-align: center;
- font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-family: Arial, Helvetica, sans-serif;
 
 }
 .side-bar h4{
-  filter: brightness(200%);
-  font-size: 15px;
-  text-align: center;
-  opacity: 0.8;
+  padding-top: 10px;
+  font-size: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: darkgray;
+  text-align: justify;
 }
 .start-btn{
-  padding-left: 70px;
-  padding-right: 50px;
+  padding: 1px 50px 50px 75px;
+ 
 }
 .start-btn form, input[type="button"]{
   background-color: black;
   color: white;
-  padding:10px;
+  padding: 10px 50px 10px 50px;
  
-  padding-left: 50px;
-  padding-right: 50px;
+ 
   text-align: center;
+}
+.start-btn :hover {
+  background-color:#80461b;
+  opacity: 0.9;
 }
