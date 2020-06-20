@@ -49,9 +49,10 @@ li a:hover {
 }
 .side-bar{
     position: absolute;
-    top:40px;
-   bottom: 30px;
     
+    top:70px;
+   bottom: 30px;
+    height: 600px;
     width:320px;
     background-color: black;
     opacity: 0.9;
@@ -82,4 +83,17 @@ li a:hover {
   font-size: 15px;
   text-align: center;
   opacity: 0.8;
+}
+.start-btn{
+  padding-left: 70px;
+  padding-right: 50px;
+}
+.start-btn form, input[type="button"]{
+  background-color: black;
+  color: white;
+  padding:10px;
+ 
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
 }
