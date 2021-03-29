@@ -1,0 +1,24 @@
+
+ h1{
+        font-size: 300;
+        color: red;
+    }
+.nav{
+    background-color:yellow;
+   @include flexcenter();
+    a{
+      padding-right: 40px;; 
+      
+    }
+}
+@mixin flexcenter{
+    align-items: center;
+    padding-left: 700px;
+}
+@mixin button{
+    background-color: #4CAF50; 
+   
+}
+.red{
+    @include button;
+}
